@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+	<title>Welcome to Grand Circus Cinemas!</title>
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">	
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+	<script src="lib/jquery-1.11.1.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<section id="screenContainer">
+		<img id="slidingHeader" src="images/transredheader.png">
+		<img id="screen" src="images/Theatre_Screen.jpg">
+	</section>
+	<div id="seatContainer"></div>
+	<br />
+	<form id = "formextraControls" class = "formhidden">
+		<div class="orderForm">
+		<br>
+		<span class="forFields">  Name:</span>
+		<input type="text" placeholder="Please enter your name" name="Name" id="reserveName"><br />
+		<span class="forFields">  Email:</span>
+		<input type="Email" placeholder="Please enter your Email" name="Name" id="reserveEmail">
+		<span class="forFields">Seats Chosen:</span>
+    	<ul id="seatChosen">
+    	</ul>
+
+		<button id = "button"> Submit </button>
+		<br /><br />
+		</div>
+	</form>
+
+	
+	<div id="instructions">
+		Instructions
+	<br />
+	<section id="actualInstructs">
+		Click on available seats to select.  <br>
+		Please press enter when <br>
+		your order is complete. <br />
+	</section>
+	</div>
+	<br />
+	<div class="seatKey">
+	<section id="seatsLegend">Seats Legend</section>
+	<section class="seatType">
+			<img class="typesOfSeats" src="images/available.png"><br>
+		Available
+		
+	</section>
+	<section class="seatType">
+			<img class="typesOfSeats" src="images/unavailable.png"><br>
+			Reserved
+	</section>
+	<section class="seatType">
+		
+			<img  class="typesOfSeats" src="images/Taken.png"><br>
+			Taken
+	</section>
+	</div>
+	<br />
+	<div class="existingReserve">
+	</div>
+</body>
+</html>

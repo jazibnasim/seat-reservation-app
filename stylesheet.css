@@ -1,0 +1,193 @@
+body {
+	text-align: center;
+	background-color: black;
+	font-family: 'Sigmar One', cursive;
+	min-width: 550px;
+}
+
+
+
+#button {
+	background-color: gold; 
+	font-family: 'Sigmar One', cursive;
+    border: crimson 3px solid;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #888888;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+
+}
+
+
+.existingReserve {
+	color: crimson;
+	font-size: 2vw;
+}
+
+.hit {
+	list-style: none;
+
+}
+
+ul {
+	padding: 0px;
+}
+
+.closedReserve {
+	margin: auto;
+	border-style: solid;
+	border-color: crimson;
+	border-radius: 8px;
+	width: 50%;
+	background-color: white;
+}
+
+.orderForm{
+	margin: auto;
+	border-style: solid;
+	border-color: crimson;
+	border-radius: 8px;
+	width: 50%;
+	background-color: white;
+}
+
+.seat {
+	border-style: solid;
+	border-color: crimson;
+	background-color: gold;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 3vw;
+	height: 8%;
+	width: 8%;
+	margin: 1%;
+	color: black;
+	padding: 1%;
+	list-style-type: none;
+}
+
+#seatContainer{
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	background-color: white;
+	border-style: solid;
+	border-color: crimson;
+	border-radius: 8px;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	list-style-type: none;
+}
+
+
+.seat_hover {
+    background-color: black;
+}
+
+#screenContainer {
+	position: relative;
+	margin: auto;
+	width: 90%;
+	height: 75%;
+}
+
+.formhidden {
+    display: none;
+}
+
+#slidingHeader{
+	display: none;
+	position: absolute;
+	width: 40%;
+	padding:12% 4% 10% 5%;
+	left: 25%;
+	z-index: 1;
+}
+
+.returnedSeatNumber {
+	color: crimson;
+	font-size: 2.5vw;
+}
+
+.forFields {
+	color: black;
+	font-size: 3vw;
+}
+
+#formextraControls {
+
+}
+
+#instructions {
+	margin: auto;
+	width: 75%;
+	color: gold;
+	font-size: 3.25vw;
+}
+
+#seatsLegend {
+	margin: auto;
+	width: 75%;
+	color: gold;
+	font-size: 3.25vw;
+}
+
+#actualInstructs {
+	font-size: 2.25vw;
+	line-height: 90%;
+	color: crimson;
+}
+
+.unavailable{
+	background-color: crimson;
+}
+
+.inProgress {
+	background-color: black;
+}
+
+.seatKey {
+	width: 75%;
+	margin: auto;
+}
+
+.seatType {
+	width: 20%;
+	color: crimson;
+	display: inline-block;
+	font-size: 2vw;
+}
+
+.typesOfSeats {
+	height:	40%;
+	width: 40%;
+}
+
+.kindOfChange {
+	font-size: 100%;
+	color: gold;
+}
+
+#reserveName {
+	vertical-align: super;
+	height: 20px;
+	width: 68%;
+}
+
+#reserveEmail {
+	vertical-align: super;
+	height: 20px;
+	width: 68%;
+}
+
+#screen {
+	width: 75%;
+	height: 75%;
+}
